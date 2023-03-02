@@ -1,0 +1,31 @@
+.briefcase {
+    background-color: var(--dark1);
+}
+
+.briefcase-section h2{
+    color: var(--secondary);
+    padding: 40px;
+    text-align: center;
+ 
+}
+
+.briefcase-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(290px,auto));
+    gap:15px;
+    width: 90%;
+    margin:0 auto;
+  
+}
+
+.briefcase-grid img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+
+}
+
+.briefcase-grid img:hover {
+    transform: scale(1.1);
+}

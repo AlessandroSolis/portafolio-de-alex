@@ -1,0 +1,44 @@
+.square-text{
+    font-size: 1.2rem;
+    margin: 10px;
+    color:var(--secondary);
+    top: 380px;
+    z-index: 11;
+}
+.square-text-2{
+    font-size: 1.35rem;
+    margin: -8px;
+    color: var(--secondary);
+    top: 418px;
+    z-index: 11;
+}
+.square-text-3{
+    font-size: 1.3rem;
+    color: var(--secondary);
+    top: 490px;
+    z-index: 11;
+}
+.square-text-3 a{
+    color: var(--secondary);
+    text-decoration: none;
+    margin: 4px;
+}
+.square-text-3 a:hover{
+    border-bottom: var(--primary)solid;
+}
+span{
+    color: var(--primary);
+}
+.contact-icon{
+    top: 450px;
+    z-index: 11;
+}
+
+.contact-icon img{
+    width: 40px;
+    margin: -4px 10px;
+    
+}
+.contact-icon img:hover{
+    transform: scale(1.2);
+}
